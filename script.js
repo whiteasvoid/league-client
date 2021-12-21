@@ -1,3 +1,4 @@
+//Button color change when inserted credentials
 function check() {
     form = document.getElementById("login")
     let login = form.children[0].value
@@ -12,3 +13,18 @@ function check() {
         button.disabled = true
     }
 }
+
+//Disable right click on client
+document.addEventListener('contextmenu', event => event.preventDefault());
+
+//Check if page is totally loaded
+if(document.readyState === 'ready' || document.readyState === 'complete') {
+    console.log("Not totally loaded!");
+    console.log("Create a new issue on https://github.com/whiteasvoid/league-client/issues please.")
+  } else {
+    document.onreadystatechange = function () {
+      if (document.readyState == 'complete') {
+        console.log("Loaded successfully!");
+      }
+    }
+  }
