@@ -1,5 +1,13 @@
 ## League-Of-Legends-Client-Preview
 
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+
 ## Live Client
 
 [Here](https://whiteasvoid.github.io/league-client/) you can see the online preview of the "test" client, i wanna turn this into a much bigger project including inclient options, loot, collection, friendlist...
