@@ -1,12 +1,21 @@
 ## League-Of-Legends-Client-Preview
 
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
+
+
+[contributors-shield]: https://img.shields.io/github/contributors/whiteasvoid/league-client?style=for-the-badge
+[contributors-url]: https://github.com/whiteasvoid/league-client/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/whiteasvoid/league-client.svg?style=for-the-badge
+[forks-url]: https://github.com/league-client/league-client/network/members
+[stars-shield]: https://img.shields.io/github/stars/whiteasvoid/league-client.svg?style=for-the-badge
+[stars-url]: https://github.com/whiteasvoid/league-client/issues
+[issues-shield]: https://img.shields.io/github/issues/whiteasvoid/league-client.svg?style=for-the-badge
+[issues-url]: https://github.com/whiteasvoid/league-client/issues
 
 ## Live Client
 
