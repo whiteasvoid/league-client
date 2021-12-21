@@ -273,6 +273,12 @@ table {
   color: #111111;
 }
 
+.container .login-container .login-bottom .version a {
+  float: right;
+  margin-top: -16px;
+  color: #999999;
+}
+
 .container .login-container .login-bottom p {
   float: right;
   margin-top: -16px;
@@ -285,4 +291,85 @@ table {
   background: url("https://assets.website-files.com/5c1bb997cb1dd611a0e6c8ce/61bc02202b734907bb7b9da0_WestStudio_LOL_Splash_0156.jpg") no-repeat center center;
   background-size: cover;
   height: 100vh;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+#modal {
+  position: fixed;
+  top: -100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  background: #fff;
+  width: 450px;
+  padding: 80px 50px 50px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+  transition: 0.5s;
+  visibility: hidden;
+}
+
+.active {
+  visibility: visible !important;
+  top: 50% !important;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content img {
+  max-width: 80px;
+}
+
+.content h2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #333;
+  margin: 20px 0 10px;
+}
+
+.content p {
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+}
+
+.content .inputBox {
+  position: relative;
+  width: 100;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .inputBox input {
+  width: 320px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  outline: none;
+  font-size: 18px;
+}
+
+.content .inputBox input[type="submit"] {
+  max-width: 150px;
+  background: #03a9f4;
+  color: #fff;
+  border: none;
+}
+
+.fa-close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  color: #333;
+  cursor: pointer;
+}
+.fa-envelope{
+  font-size: 100px !important;
+  color:  #03a9f4;
 }
