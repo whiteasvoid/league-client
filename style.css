@@ -6,19 +6,87 @@
   float: right;
 }
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -29,8 +97,17 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -38,16 +115,20 @@ body {
   line-height: 1;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
   content: "";
   content: none;
 }
@@ -62,6 +143,7 @@ table {
   align-items: center;
   justify-content: space-between;
 }
+
 .container .login-container {
   background: #efefef;
   width: calc(35% - 20px * 2);
@@ -72,6 +154,7 @@ table {
   justify-content: space-between;
   flex-direction: column;
 }
+
 .container .login-container .login-top {
   padding: 40px 40px;
   display: flex;
@@ -80,34 +163,41 @@ table {
   width: calc(90% - 10px * 2);
   margin: 0 auto;
 }
+
 .container .login-container .login-top .language {
   cursor: default;
   padding: 10px 15px;
   border-radius: 4px;
   display: block;
 }
+
 .container .login-container .login-top .language:hover {
   background: #dddddd;
 }
+
 .container .login-container .login-top .language p {
   display: inline-block;
   font-weight: 600;
   font-size: 14px;
 }
+
 .container .login-container .login-body {
   padding: 20px;
   width: calc(90% - 20px * 2);
   margin: 0 auto;
 }
+
 .container .login-container .login-body p {
   font-size: 30px;
   font-weight: 600;
   padding: 30px 0;
 }
+
 .container .login-container .login-body form {
   margin-top: 20px;
 }
-.container .login-container .login-body form > input {
+
+.container .login-container .login-body form>input {
   display: block;
   width: calc(100% - 20px * 2);
   margin: 0 auto;
@@ -121,20 +211,24 @@ table {
   border: 2px solid transparent;
   transition: all 0.5s;
 }
-.container .login-container .login-body form > input:focus {
+
+.container .login-container .login-body form>input:focus {
   border: 2px solid #111111;
   background: #efefef;
 }
+
 .container .login-container .login-body form .checkbox {
   margin-top: 20px;
   user-select: none;
 }
+
 .container .login-container .login-body form .button {
   margin: 0 auto;
   margin-top: 80px;
   width: 100%;
   text-align: center;
 }
+
 .container .login-container .login-body form .button button {
   margin: 0 auto;
   width: 70px;
@@ -147,20 +241,24 @@ table {
   outline: none;
   border-radius: 20px;
 }
+
 .container .login-container .login-body form .button .btn-active {
   background: #dc3939;
   color: #efefef;
   border-color: #dc3939;
 }
+
 .container .login-container .login-body form .button .btn-active:hover {
   background: #c12f2f;
   border-color: #c12f2f;
 }
+
 .container .login-container .login-bottom {
   padding: 20px;
   margin: 0 auto;
   width: calc(90% - 20px * 2);
 }
+
 .container .login-container .login-bottom a {
   display: block;
   margin-top: 5px;
@@ -170,14 +268,17 @@ table {
   text-decoration: none;
   text-align: center;
 }
+
 .container .login-container .login-bottom a:hover {
   color: #111111;
 }
+
 .container .login-container .login-bottom p {
   float: right;
   margin-top: -16px;
   color: #999999;
 }
+
 .container .background-container {
   width: 75%;
   overflow: hidden;

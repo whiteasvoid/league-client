@@ -16,13 +16,13 @@
             <img src="https://logodownload.org/wp-content/uploads/2019/12/riot-games-logo-0-2048x2048.png" width="150" alt="Riot Games Logo">
             <div class="language">
                 <p>EUW (EN)</p>
-                <i id="globe"><img src="https://cdn-icons-png.flaticon.com/512/263/263080.png" width="20"></i>
+                <i id="globe"><img src="https://cdn-icons-png.flaticon.com/512/1483/1483030.png" width="23"></i>
             </div>
         </div>
         <div class="login-body">
             <p>Sign in</p>
             
-            <form onkeyup="check()" id="login" autocomplete="off">
+            <form onsubmit="return loginredirectfunc()" onkeyup="check()" id="login" autocomplete="off">
                 <input type="text" name="login" placeholder="USERNAME">
                 
                 <input type="password" name="password" placeholder="PASSWORD">
@@ -33,14 +33,14 @@
                 </div>
                 
                 <div class="button">
-                    <button type="submit" disabled>&#x279C;</button>
+                    <button onclick="loginredirectfunc()" type="submit" disabled>&#x279C;</button>
                 </div>
             </form>
         </div>
         <div class="login-bottom">
             <a href="https://signup.euw.leagueoflegends.com/en/signup/index#/" target="_blank">CREATE ACCOUNT</a>
             <a href="https://recovery.riotgames.com/en/forgot-password?region=EUW1" target="_blank">CAN'T SIGN IN?</a>
-            <p class="version">v1.0.1</p>
+            <p class="version">v1.0.2</p>
         </div>
     </div>
     
