@@ -1,7 +1,7 @@
 //Variables
-var repository = "https://github.com/whiteasvoid/league-client/";
-var version = "v1.0.3";
-var version_location = document.getElementById("version");
+const repository = "https://github.com/whiteasvoid/league-client/";
+const version = "v1.0.3";
+const version_location = document.getElementById("version");
 
 //Set version
 version_location.textContent = version;
