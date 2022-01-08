@@ -138,6 +138,20 @@ table {
   border-spacing: 0;
 }
 
+.sticky {
+
+  position: sticky;
+
+}
+
+.footer {
+  background: #333;
+  color: #fff;
+  font-size: 20px;
+  padding: 0.4em;
+  text-align: center;
+}
+
 .container {
   display: flex;
   align-items: center;

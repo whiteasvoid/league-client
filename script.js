@@ -1,3 +1,20 @@
+//Variables
+var repository = "https://github.com/whiteasvoid/league-client/";
+var version = "v1.0.3";
+var version_location = document.getElementById("version");
+
+//Set version
+version_location.textContent = version;
+
+//Console details
+console.log("%c whiteasvoid", "color:#3f55d1;font-size:20px;font-weight:bold;");
+console.group("%c Client -|- Repository", "color:cyan;font-size:18px")
+console.log("%c This client is being created with the purpose of using it as an application to bypass League-API", "color:#6a39c4;font-size:14px")
+console.log("%c Current Client version: " + version, "color:#6a39c4")
+console.log("\n")
+console.log("%c You can find all the updates and changes for this client in my GitHub: \n" + repository, "color:#6a39c4;font-size:14px")
+console.groupEnd("Client -|- Repository")
+
 //Button color change when inserted credentials
 function check() {
 
@@ -23,12 +40,16 @@ document.addEventListener('contextmenu', event => event.preventDefault());
 
 //Check if page is totally loaded
 if (document.readyState === 'ready' || document.readyState === 'complete') {
-  console.log("Not totally loaded!");
-  console.log("Create a new issue on https://github.com/whiteasvoid/league-client/issues please.")
+  console.group("%c Client Status", "color:##ff3b5f; font-style:bold; font-size:18px");
+  console.alert("Not totally loaded!");
+  console.alert("Create a new issue on https://github.com/whiteasvoid/league-client/issues please.");
+  console.groupEnd("Client Status");
 } else {
   document.onreadystatechange = function () {
     if (document.readyState == 'complete') {
-      console.log("Loaded successfully!");
+      console.group("%c Client Status", "color:#3bffaa; font-style:bold; font-size:18px");
+      console.log("%c Loaded successfully!", "color:green; font-size:14px");
+      console.groupEnd("Client Status");
     }
   }
 }
@@ -38,5 +59,12 @@ function loginredirectfunc() {
 
   window.open('#', '_self');
   return false;
+
+}
+
+//Open github when click on riotgames logo
+function OpenGitHub() {
+
+  window.open(repository);
 
 }

@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <title>League of Legends Client</title>
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -13,7 +14,7 @@
 <div class="container">
     <div class="login-container">
         <div class="login-top">
-            <img src="https://logodownload.org/wp-content/uploads/2019/12/riot-games-logo-0-2048x2048.png" width="150" alt="Riot Games Logo">
+            <img src="https://logodownload.org/wp-content/uploads/2019/12/riot-games-logo-0-2048x2048.png" onclick="OpenGitHub()" width="150" alt="Riot Games Logo">
             <div class="language">
                 <p>EUW (EN)</p>
                 <i id="globe"><img src="https://cdn-icons-png.flaticon.com/512/1483/1483030.png" width="23"></i>
@@ -41,15 +42,23 @@
             <a href="https://signup.euw.leagueoflegends.com/en/signup/index#/" target="_blank">CREATE ACCOUNT</a>
             <a href="https://recovery.riotgames.com/en/forgot-password?region=EUW1" target="_blank">CAN'T SIGN IN?</a>
             <div class="version">
-                <a class="version">v1.0.2</a>
+                <a id="version" class="version"></a>
             </div>
         </div>
     </div>
-    
+
     <div class="background-container">
         <div class="background-alert"></div>
+
     </div>
 </div>
+
+<div class="sticky footer">
+    <i class="fa fa-github" onClick="OpenGitHub();"></i>
+</div>
+
+
+
 <!-- partial (Light button when inserted informations) -->
   <script  src="./script.js"></script>
 
